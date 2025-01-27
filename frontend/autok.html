@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="autok.css">
+    <title>DriveUs/AUTÓK</title>
+</head>
+<body>
+    <header>
+        <img src="ceg_logo.png" alt="" id="img1">
+        <nav>
+            <a href="rolunk.html">RÓLUNK</a>
+            <a href="berleseim.html">BÉRLÉSEIM</a>
+            <a href="profilom.html">PROFILOM</a>
+            <a href="index.html">FŐOLDAL</a>
+        </nav>
+        <img src="ceg_logo.png" alt="" id="img2">
+    </header>
+     <main> 
+        <div class="gallery-container">
+            <div class="gallery" id="gallery">
+                <img src="csaladi.jpg" alt="Kép 1">
+                <img src="luxus.jpg" alt="Kép 2">
+                <img src="hetkoznapi.jpg" alt="Kép 3">
+                <img src="sport.jpg" alt="Kép 4">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+     </main> 
+     <footer>
+        <button id="nyelv" class="language-switcher" onclick="switchLanguage()">Switch to English</button>
+    </footer>
+ <script src="script.js"></script>
+ </body>
+ </html>
